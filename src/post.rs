@@ -174,3 +174,7 @@ fn filter_candidates<T>(
         .cloned()
         .collect()
 }
+
+pub fn do_nothing(){
+    filecoin_proofs_v1::ffi_do_nothing();
+}
